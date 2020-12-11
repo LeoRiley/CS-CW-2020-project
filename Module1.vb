@@ -3,7 +3,7 @@ Imports System
 Imports System.IO.File
 Module Module1
     Sub Initial_menu()
-        Dim initial_menu_items() As String = {"restuant menu", "binary conversion", "types of gates demonstration", "random number generator"}
+        Dim initial_menu_items() As String = {"restuant menu", "binary conversion", "types of gates demonstration", "random number generator", "text letter analisis"}
         Dim i As Integer = 0
         Dim userinput As Integer
         Console.Clear()
@@ -26,6 +26,8 @@ Module Module1
                 Run_convert_number()
             Case 3
                 Run_random_number_gen()
+            Case 4
+                Run_text_analisis()
             Case Else
                 Return
         End Select
@@ -34,6 +36,7 @@ Module Module1
 
 
     Sub Main()
+        Run_christmas_script()
         While True
             Initial_menu()
         End While

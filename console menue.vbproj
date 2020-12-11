@@ -70,6 +70,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="binary conversion.vb" />
+    <Compile Include="christmas code.vb" />
+    <Compile Include="encryption.vb" />
     <Compile Include="incription.vb" />
     <Compile Include="meal.vb" />
     <Compile Include="Module1.vb" />
@@ -78,6 +80,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
+    <Compile Include="My Project\letter frequency analisis.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
